@@ -33,34 +33,34 @@ sudo systemctl enable docker --now
 7. Скачивание и установка Docker Compose через команду 'sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compos'
 ![image](https://github.com/user-attachments/assets/bceba0c8-a8c6-4d5d-82b3-7213db6bb0bc)
 
-8. 
+8. Установлен исполняемый флаг для файла docker-compose в директории /usr/bin
 ![image](https://github.com/user-attachments/assets/1380838f-fd19-47f5-a03d-423cec354d94)
 
-9. Файл docker-compose исполняемый с помощью команды 'sudo chmod +x /usr/bin/docker-compose'
+9. Проверена версия Docker Compose, установлена версия v2.33.1
 ![image](https://github.com/user-attachments/assets/c33a681d-7bca-4935-bbaf-276537cba977)
 
-10. Вывод версии Docker Compos через 'docker-compose -- version'
+10. Клонирован репозиторий grafana_stack_for_docker с GitHub
 ![image](https://github.com/user-attachments/assets/b1063963-51fc-4e97-9c0a-238fb420a2e4)
 
-11. Клонирование репозитория grafana_stack_for_docker с GitHub через команду 'git clone https://github.com/skl256/grafana_stack_for_docker.git'
+11. Перейден в директорию grafana_stack_for_docker
 ![image](https://github.com/user-attachments/assets/fe1d8a35-3df0-49d8-9899-66c23978492b)
 
-12. Переход в директорию grafana_stack_for_docker через команду 
+12. Созданы необходимые директории для хранения конфигурации и данных Grafana и Prometheus
 ![image](https://github.com/user-attachments/assets/e7cae3fc-3c34-4d3a-a14e-a8579dc441e2)
 
-13. Создание директории для Grafana и Prometheus в /mnt/common_volume/
+13. Повторно созданы те же необходимые директории для хранения конфигурации и данных
 ![image](https://github.com/user-attachments/assets/65b871be-c268-4dfc-af19-0a83f03e63f8)
 
-14. Повторное создание директории для Grafana и Prometheus в /mnt/common_volume/
+14. Изменены права доступа на указанные директории, назначив владельца текущему пользователю
 ![image](https://github.com/user-attachments/assets/afa2d8da-3751-44e4-97af-8906e6b981f2)
 
-15. Создание пустого файла grafana.ini
+15. Создан пустой файл grafana.ini в директории конфигурации Grafana
 ![image](https://github.com/user-attachments/assets/c27a4892-6114-44db-ab5d-cf21fcede1e8)
 
-16. Копирование файла конфигурации в /mnt/common_volume/swarm/grafana/config/
+16. Скопированы конфигурационные файлы в соответствующую директорию
 ![image](https://github.com/user-attachments/assets/16a7e4bc-5fe6-4be4-b21b-f9f02fb7a664)
 
-17. Переименовывание файла grafana.yaml в docker-compose.yaml
+17. Переименован файл grafana.yaml в docker-compose.yaml
 ![image](https://github.com/user-attachments/assets/c86b4351-5410-4ef1-8533-82cd8e8d5251)
 
 18. Запуск сервисов, определенных в docker-compose.yaml в фоновом режиме
