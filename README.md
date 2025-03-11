@@ -75,7 +75,30 @@ sudo systemctl enable docker --now
 ![image](https://github.com/user-attachments/assets/749b4785-3d48-47bd-a203-097113b7c2ef)
 
 22. Открытие файла docker-compose.yaml в редакторе vi с правами суперпользователя
-![image](https://github.com/user-attachments/assets/51ddf451-7162-47b5-b81f-9b0af0c5f695)
+В текстовом редакторе ставим node-exporter после services
+![image](https://github.com/user-attachments/assets/6bff7b6c-1126-4abf-be49-a55174b52dcf)
+
+Сохраняем изменения через wq!
+![image](https://github.com/user-attachments/assets/f030137c-95cf-4af5-9c24-2be648fcd74d)
+
+23. Открываем файл prometheus.yaml в текстовом редакторе vi с правами суперпользователя
+Исправлено targets: на exporter:9100,
+![image](https://github.com/user-attachments/assets/ee58a94b-0010-4c58-8017-c694492d017a)
+
+24. Команда sudo docker compose stop останавливает запущенные контейнеры без их удаления
+![image](https://github.com/user-attachments/assets/29c108d7-318a-4dc1-88e5-beb48ac40c67)
+
+25. Команда sudo docker compose down используется для остановки и удаления контейнеров, сетей, томов и других ресурсов, созданных с помощью Docker Compose
+![image](https://github.com/user-attachments/assets/49e937f2-f2f3-45d7-987b-800c0eebc12a)
+
+26. Клонирование репозитория с гитхаба через команду sudo git clone https://github.com/shabashhh0505/Rashidova
+![image](https://github.com/user-attachments/assets/72920517-d434-412a-9a91-f2b27426639e)
+
+
+
+
+
+
 
 
 
