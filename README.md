@@ -94,25 +94,27 @@ sudo systemctl enable docker --now
 ![image](https://github.com/user-attachments/assets/72920517-d434-412a-9a91-f2b27426639e)
 
 ## GRAFANA
+27. Перед графаной обязательно запускаем кейсы doker-compose, если они остановлены/удалены:
+![image](https://github.com/user-attachments/assets/526e5cda-4bb2-4f7d-a891-1b16cb0c8bc5)
 
-27. Вход в графану с логином и паролем admin
+28. Вход в графану с логином и паролем admin
 ![image](https://github.com/user-attachments/assets/248780bb-bea2-4478-9c65-69031c4225b7)
 ![image](https://github.com/user-attachments/assets/a6cf01c0-e460-4cea-88d8-c645a3147de5)
 
-28. Нажимаем создать визуализацию и выбираем prometheus
+29. Нажимаем создать визуализацию и выбираем prometheus
 ![image](https://github.com/user-attachments/assets/08917c89-1534-486d-b953-ec275c56a631)
 ![image](https://github.com/user-attachments/assets/6c18985b-e72c-42df-b09f-045b505ddc1f)
 
-29. Заполняем данные
+30. Заполняем данные
 ![image](https://github.com/user-attachments/assets/44b6b06b-45f9-408d-9ac2-cda7add75995)
 ![image](https://github.com/user-attachments/assets/708e1893-c34f-46b1-ade7-15aa67f7bb94)
 
-30. Теперь нажимаем импорт прометеуса и не забываем ввести код графаны 1860
+31. Теперь нажимаем импорт прометеуса и не забываем ввести код графаны 1860
 ![image](https://github.com/user-attachments/assets/14d452b1-e1a0-409c-b7b7-dbe5e27d690f)
 ![image](https://github.com/user-attachments/assets/c21ac16f-d0c6-4416-8379-f5ada99440fb)
 ![image](https://github.com/user-attachments/assets/88552ca0-df59-468e-aada-6743cf367d6e)
 
-31. Ну а потом, ничего не получилось и буду искать решение
+32. Ну а потом, ничего не получилось и буду искать решение
 <img width="629" alt="image" src="https://github.com/user-attachments/assets/4e2b8fed-b181-41f0-9997-267b99299395" />
 
 
