@@ -81,8 +81,7 @@ sudo systemctl enable docker --now
 Сохраняем изменения через wq!
 ![image](https://github.com/user-attachments/assets/f030137c-95cf-4af5-9c24-2be648fcd74d)
 
-23. Открываем файл prometheus.yaml в текстовом редакторе vi с правами суперпользователя
-Исправлено targets: на exporter:9100,
+23. Открываем файл prometheus.yaml в текстовом редакторе vi с правами суперпользователя. Исправлено targets: на exporter:9100
 ![image](https://github.com/user-attachments/assets/4acc6cf5-5841-433c-934e-02e50362a149)
 
 24. Команда sudo docker compose stop останавливает запущенные контейнеры без их удаления
