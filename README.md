@@ -113,8 +113,9 @@ sudo systemctl enable docker --now
 ![image](https://github.com/user-attachments/assets/c21ac16f-d0c6-4416-8379-f5ada99440fb)
 ![image](https://github.com/user-attachments/assets/88552ca0-df59-468e-aada-6743cf367d6e)
 
-32. Ну а потом, ничего не получилось и буду искать решение
-<img width="629" alt="image" src="https://github.com/user-attachments/assets/4e2b8fed-b181-41f0-9997-267b99299395" />
+32. И получаем мониторинг сервера
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/d1e7528f-1acd-4911-b994-fd7b6667cef2" />
+
 
 
 
