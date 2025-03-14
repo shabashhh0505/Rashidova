@@ -74,8 +74,7 @@ sudo systemctl enable docker --now
 ![image](https://github.com/user-attachments/assets/3134b193-37b9-40b0-9624-58b5daedc604)
 ![image](https://github.com/user-attachments/assets/749b4785-3d48-47bd-a203-097113b7c2ef)
 
-22. Открытие файла docker-compose.yaml в редакторе vi с правами суперпользователя
-В текстовом редакторе ставим node-exporter после services
+22. Открытие файла docker-compose.yaml в редакторе vi с правами суперпользователя. В текстовом редакторе ставим node-exporter после services
 ![image](https://github.com/user-attachments/assets/6bff7b6c-1126-4abf-be49-a55174b52dcf)
 
 Сохраняем изменения через wq!
