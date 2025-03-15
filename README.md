@@ -125,7 +125,6 @@ P.S. Если у вас не отобразились данные, то сов�
 ## VictoriaMetrics
 Заходим на  http://localhost:8428 и  http://localhost:9090
 33. Заходим в графану, в дашборд, создаем новую визуализацию
-
 <img width="601" alt="image" src="https://github.com/user-attachments/assets/a9a289be-cfd7-4f99-b38e-9834185b39a4" />
 
 34. Создаем новый источник данных, выбираем прометеус и меняем в нем название и локал хост
@@ -139,7 +138,7 @@ P.S. Если у вас не отобразились данные, то сов�
 <img width="469" alt="image" src="https://github.com/user-attachments/assets/6068c20d-5284-4446-9872-be93b8238f9b" />
 <img width="538" alt="image" src="https://github.com/user-attachments/assets/b30c3ce8-dce8-41f7-8019-ec3b3e981d1a" />
 
-37. Вставляем в терминал команду:
+37. Вставляем в терминал команду echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus, команда отправляет метрику `light_metric1` с нулевым значением в VictoriaMetrics:
 <img width="703" alt="image" src="https://github.com/user-attachments/assets/1ed4ff65-3fc6-4bf8-89a6-805df1ae7feb" />
 
 38. Заходим на локал хост 8428 и выбираем vmui, вставляем light_metric1
