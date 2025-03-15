@@ -122,6 +122,28 @@ P.S. Если у вас не отобразились данные, то сов�
 • После выполнения вышеперечисленных пунктов перезапускаем ВРМ.
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/d1e7528f-1acd-4911-b994-fd7b6667cef2" />
 
+## VictoriaMetrics
+Заходим на  http://localhost:8428 и  http://localhost:9090
+33. Заходим в графану, в дашборд, создаем новую визуализацию
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/a9a289be-cfd7-4f99-b38e-9834185b39a4" />
+
+34. Создаем новый источник данных, выбираем прометеус и меняем в нем название и локал хост
+<img width="473" alt="image" src="https://github.com/user-attachments/assets/9a76a830-6dd1-4586-983a-713114edee04" />
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/5cac83a0-077c-4aca-a8e1-6a01a47532dd" />
+
+35. Сохраняем, далее открывается окно с метриками:
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/62ed5b16-4bb1-43b5-a116-fc7226e23f70" />
+
+36.ааа
+а
+
+37. Вставляем<img width="703" alt="image" src="https://github.com/user-attachments/assets/1ed4ff65-3fc6-4bf8-89a6-805df1ae7feb" />
+<img width="469" alt="image" src="https://github.com/user-attachments/assets/6068c20d-5284-4446-9872-be93b8238f9b" />
+
+
+
+
+
 
 
 
