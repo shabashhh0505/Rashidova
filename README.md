@@ -134,11 +134,21 @@ P.S. Если у вас не отобразились данные, то сов�
 35. Сохраняем, далее открывается окно с метриками:
 <img width="611" alt="image" src="https://github.com/user-attachments/assets/62ed5b16-4bb1-43b5-a116-fc7226e23f70" />
 
-36.ааа
-а
-
-37. Вставляем<img width="703" alt="image" src="https://github.com/user-attachments/assets/1ed4ff65-3fc6-4bf8-89a6-805df1ae7feb" />
+36.Добавляем еще визуализацию:
 <img width="469" alt="image" src="https://github.com/user-attachments/assets/6068c20d-5284-4446-9872-be93b8238f9b" />
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/b30c3ce8-dce8-41f7-8019-ec3b3e981d1a" />
+
+37. Вставляем в терминал команду:
+<img width="703" alt="image" src="https://github.com/user-attachments/assets/1ed4ff65-3fc6-4bf8-89a6-805df1ae7feb" />
+
+38. Заходим на локал хост 8428 и выбираем vmui, вставляем light_metric1
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/ff05e733-c492-44b5-a506-1d75396a6611" />
+
+39. Заходим в графану, в дашборд с метрикой, добавляем визуализацию, в коде пишем light_metric1 и сохраняем
+<img width="139" alt="image" src="https://github.com/user-attachments/assets/c6054dc1-5625-4993-b776-25439a56970e" />
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/c8aa0b3c-a520-4fd5-90c2-5ce70ade74e7" />
+<img width="522" alt="image" src="https://github.com/user-attachments/assets/a4205d51-8c88-49e8-9e4a-985efbe04a22" />
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/3aa6d99d-e6fd-46b6-b496-4169c9b27a6a" />
 
 
 
